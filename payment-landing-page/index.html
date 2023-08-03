@@ -1,15 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Landing Page Solution</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+  <body>
+    <header class="header container">
+      <nav class="navbar">
+        <div class="brand">
+          <img src="./assets/logo.png" alt="" />
+        </div>
 
-<body>
+        <ul class="navlist">
+          <li class="navlist__item"><a href="#">Features</a></li>
+          <li class="navlist__item"><a href="#">Pricing</a></li>
+          <li class="navlist__item"><a href="#">Help</a></li>
+          <li class="navlist__item"><a href="#">Blog</a></li>
+          <li class="navlist__item"><a href="#">About us</a></li>
+        </ul>
 
-</body>
+        <div class="navbar__buttons">
+          <button class="btn">Log In</button>
+          <button class="btn">Sign Up</button>
+        </div>
 
+        <!-- hamburger -->
+        <div class="hamburger"></div>
+
+        <!-- mobile nav -->
+        <ul class="mobile__navlist container">
+          <li class="mobile__navlist-item active"><a href="#">Features</a></li>
+          <li class="mobile__navlist-item"><a href="#">Pricing</a></li>
+          <li class="mobile__navlist-item"><a href="#">Help</a></li>
+          <li class="mobile__navlist-item"><a href="#">Blog</a></li>
+          <li class="mobile__navlist-item"><a href="#">About us</a></li>
+          <li class="mobile__navlist-item"><a href="#">Log In</a></li>
+          <li class="mobile__navlist-item"><a href="#">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero__content">
+          <h6>START SAVING MONEY</h6>
+          <h1>Smart Credit Card For Your Daily Live.</h1>
+
+          <div>
+            <button class="hero__button btn">
+              Download
+
+              <img src="./assets/download.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="./assets/hero-image.png" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
