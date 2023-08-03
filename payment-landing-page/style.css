@@ -28,6 +28,7 @@ body {
 
 .header {
   line-height: 100px;
+  height: 100px;
   vertical-align: middle;
 }
 
@@ -54,6 +55,11 @@ body {
   color: var(--primary);
   font-weight: 500;
   font-size: 1.05rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.navlist li a:hover {
+  color: #c0bdbdcc
 }
 
 .navbar__buttons {
@@ -75,7 +81,11 @@ body {
   font-weight: 700;
   font-size: 1.08rem;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background: #b9b4c2;
 }
 
 .btn:active {
@@ -172,13 +182,12 @@ body {
   cursor: pointer;
   display: block;
   border-radius: 4px;
-  padding: 5px
-}
-
-.mobile__navlist-item {
+  padding: 5px;
   transition: all 0.2s ease-in-out;
 }
 
+
+.mobile__navlist-item a:hover,
 .mobile__navlist-item.active a {
   background-color: var(--primary);
   color: var(--black);
